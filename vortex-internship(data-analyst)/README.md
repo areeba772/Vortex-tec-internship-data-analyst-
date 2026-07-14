@@ -248,3 +248,111 @@ The following charts were created:
 This project provided practical experience in data cleaning, exploratory data analysis, feature engineering, and visualization.
 
 The analysis transformed raw sales data into meaningful business insights that can support better decision-making.
+
+
+# VortexTech Data Science Internship - Week 2
+
+## Exploratory Data Analysis (EDA) with Insights
+
+### Overview
+
+This project is part of the VortexTech Data Science & Analytics Internship Program 2026.
+The objective of Week 2 was to perform Exploratory Data Analysis (EDA) and identify meaningful patterns and relationships hidden in the dataset using statistical analysis and visualizations.
+
+### Dataset
+
+The analysis was performed on the Sample Superstore dataset used in Week 1.
+
+The dataset contains:
+
+* Numerical columns: Sales, Quantity, Discount, Profit, etc.
+* Categorical columns: Category, Region, Segment, Ship Mode, etc.
+
+### Tasks Completed
+
+* Loaded and reviewed the cleaned dataset
+* Checked missing values and duplicate records
+* Generated a correlation matrix for numerical features
+* Created a correlation heatmap to analyze relationships
+* Created scatter plots for important numerical relationships
+* Performed categorical analysis using groupby operations
+* Identified and documented three key business insights from the analysis
+
+### Visualizations Created
+
+The following visualizations were generated:
+
+1. Correlation Heatmap
+
+   * Shows relationships between numerical variables.
+
+2. Sales vs Profit Scatter Plot
+
+   * Analyzes the relationship between sales and profit.
+
+3. Discount vs Profit Scatter Plot
+
+   * Studies how discounts impact profitability.
+
+4. Average Profit by Category Bar Chart
+
+   * Compares profitability across different product categories.
+
+### Key Insights
+
+1. Sales and Profit show a positive relationship, meaning higher sales generally contribute to higher profit, although some high-sales products may have lower profitability.
+
+2. Higher discounts can negatively impact profit margins, showing that excessive discounting may reduce overall profitability.
+
+3. Different product categories have different profit performances, helping identify which categories contribute more to business success.
+
+### Tools & Libraries Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
+
+### Project Structure
+
+```
+vortex-internship(data-analyst)
+│
+├── data
+│   └── cleaned_superstore.csv
+│
+├── notebooks
+│   └── Week2_EDA_Insights.ipynb
+│
+├── images
+│   ├── correlation_heatmap.png
+│   ├── sales_profit_scatter.png
+│   ├── discount_profit_scatter.png
+│   └── category_profit_bar.png
+│
+└── README.md
+```
+
+### How to Run
+
+1. Clone this repository.
+2. Install required libraries:
+
+```
+pip install pandas numpy matplotlib seaborn jupyter
+```
+
+3. Open Jupyter Notebook:
+
+```
+jupyter notebook
+```
+
+4. Run `Week2_EDA_Insights.ipynb`.
+
+### Conclusion
+
+This EDA project helped uncover hidden patterns in the dataset through statistical analysis and visualization. The findings provide useful insights into sales performance, profitability, and the impact of discounts on business outcomes.
+
