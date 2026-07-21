@@ -352,7 +352,34 @@ jupyter notebook
 
 4. Run `Week2_EDA_Insights.ipynb`.
 
+
 ### Conclusion
 
 This EDA project helped uncover hidden patterns in the dataset through statistical analysis and visualization. The findings provide useful insights into sales performance, profitability, and the impact of discounts on business outcomes.
+
+# Vortex Tech Internship - Week 3
+# VortexTech Data Science & Analytics Internship - Week 3
+
+## 📊 Interactive Dashboard
+
+An interactive Streamlit dashboard built using Python, Pandas, and Streamlit to explore the cleaned superstore dataset.
+
+### Features
+- **Category Dropdown Filter:** Filter records dynamically by category.
+- **Sales Range Slider:** Refine the data range seamlessly.
+- **Dynamic Visualizations:** Includes Bar chart, Line chart, and Area chart updating in real-time.
+- **Raw Data Inspector:** Clean data table view showcasing filtered records.
+
+### How to Run Locally
+1. Install requirements:
+   ```bash
+   pip install streamlit pandas
+
+
+ <img width="1365" height="725" alt="Screenshot 2026-07-20 232833" src="https://github.com/user-attachments/assets/3fafbd68-ffcd-4bff-a9c6-96aba9b67bc6" />
+ <img width="1365" height="644" alt="Screenshot 2026-07-20 232846" src="https://github.com/user-attachments/assets/555adead-d000-40a5-a562-95255e2d0c89" />
+
+   
+
+
 
